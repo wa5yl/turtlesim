@@ -1,0 +1,26 @@
+[4.446s] Invoking command in '/home/lysaw/ros2_wsa/src/my_package': PYTHONPATH=/home/lysaw/ros2_wsa/build/my_package/prefix_override:/home/lysaw/ros2_wsa/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/lysaw/ros2_wsa/build/my_package/build install --record /home/lysaw/ros2_wsa/build/my_package/install.log --single-version-externally-managed
+[6.162s] running egg_info
+[6.171s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[6.173s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[6.174s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[6.175s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[6.180s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[6.196s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.207s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[6.208s] running build
+[6.209s] running build_py
+[6.210s] copying my_package/mynode.py -> /home/lysaw/ros2_wsa/build/my_package/build/lib/my_package
+[6.212s] running install
+[6.213s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.213s]   warnings.warn(
+[6.214s] running install_lib
+[6.217s] copying /home/lysaw/ros2_wsa/build/my_package/build/lib/my_package/mynode.py -> /home/lysaw/ros2_wsa/install/my_package/lib/python3.10/site-packages/my_package
+[6.219s] byte-compiling /home/lysaw/ros2_wsa/install/my_package/lib/python3.10/site-packages/my_package/mynode.py to mynode.cpython-310.pyc
+[6.231s] running install_data
+[6.239s] running install_egg_info
+[6.249s] removing '/home/lysaw/ros2_wsa/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info' (and everything under it)
+[6.255s] Copying ../../build/my_package/my_package.egg-info to /home/lysaw/ros2_wsa/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[6.258s] running install_scripts
+[6.395s] Installing mynode script to /home/lysaw/ros2_wsa/install/my_package/lib/my_package
+[6.397s] writing list of installed files to '/home/lysaw/ros2_wsa/build/my_package/install.log'
+[6.540s] Invoked command in '/home/lysaw/ros2_wsa/src/my_package' returned '0': PYTHONPATH=/home/lysaw/ros2_wsa/build/my_package/prefix_override:/home/lysaw/ros2_wsa/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/lysaw/ros2_wsa/build/my_package/build install --record /home/lysaw/ros2_wsa/build/my_package/install.log --single-version-externally-managed
